@@ -61,6 +61,18 @@ This document was designed to be a useful, informational asset for those looking
 ------
 
 ## Privilege Escalation
+
+### sAMAccountName Spoofing
+* [sAMAccountName spoofing](https://www.thehacker.recipes/ad/movement/kerberos/samaccountname-spoofing)
+* [CVE-2021-42287/CVE-2021-42278 Weaponisation](https://exploit.ph/cve-2021-42287-cve-2021-42278-weaponisation.html)
+
+### Abusing Active Directory Certificate Services
+* [Certified Pre-Owned](https://posts.specterops.io/certified-pre-owned-d95910965cd2)
+
+### PetitPotam 
+* [PetitPotam](https://github.com/topotam/PetitPotam)
+* [From Stranger to DA // Using PetitPotam to NTLM relay to Domain Administrator](https://blog.truesec.com/2021/08/05/from-stranger-to-da-using-petitpotam-to-ntlm-relay-to-active-directory/)
+
 ### Zerologon
 * [Cobalt Strike ZeroLogon-BOF](https://github.com/rsmudge/ZeroLogon-BOF)
 * [CVE-2020-1472 POC](https://github.com/dirkjanm/CVE-2020-1472)
@@ -339,6 +351,8 @@ Advanced Threat Protection and Advanced Threat Analytics](https://www.blackhat.c
 * [The Unintended Risks of Trusting Active Directory](https://www.slideshare.net/harmj0y/the-unintended-risks-of-trusting-active-directory)
 
 ## Tools & Scripts
+* [Certify](https://github.com/GhostPack/Certify) - Certify is a C# tool to enumerate and abuse misconfigurations in Active Directory Certificate Services (AD CS).
+* [PSPKIAudit](https://github.com/GhostPack/PSPKIAudit) - PowerShell toolkit for auditing Active Directory Certificate Services (AD CS).
 * [PowerView](https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1) - Situational Awareness PowerShell framework
 * [BloodHound](https://github.com/BloodHoundAD/BloodHound) - Six Degrees of Domain Admin
 * [Impacket](https://github.com/SecureAuthCorp/impacket) - Impacket is a collection of Python classes for working with network protocols
@@ -367,6 +381,11 @@ Advanced Threat Protection and Advanced Threat Analytics](https://www.blackhat.c
 * [Stormspotter](https://github.com/Azure/Stormspotter) - Stormspotter creates an “attack graph” of the resources in an Azure subscription.
 * [AADInternals](https://github.com/Gerenios/AADInternals) - AADInternals is PowerShell module for administering Azure AD and Office 365
 * [MicroBurst: A PowerShell Toolkit for Attacking Azure](https://github.com/NetSPI/MicroBurst) - MicroBurst includes functions and scripts that support Azure Services discovery, weak configuration auditing, and post exploitation actions such as credential dumping. 
+* [sam-the-admin](https://github.com/WazeHell/sam-the-admin) - Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user
+* [CVE-2021-42287/CVE-2021-42278 Scanner & Exploiter.](https://github.com/cube0x0/noPac) - CVE-2021-42287/CVE-2021-42278 Scanner & Exploiter. Yet another low effort domain user to domain admin exploit.
+* [ADModule](https://github.com/samratashok/ADModule) - Microsoft signed ActiveDirectory PowerShell module
+* [ImproHound](https://github.com/improsec/ImproHound) - Identify the attack paths in BloodHound breaking your AD tiering
+* [ADExplorerSnapshot.py](https://github.com/c3c/ADExplorerSnapshot.py) - ADExplorerSnapshot.py is an AD Explorer snapshot ingestor for BloodHound.
 
 ## Ebooks
 * [The Dog Whisperer’s Handbook – A Hacker’s Guide to the BloodHound Galaxy](https://www.ernw.de/download/BloodHoundWorkshop/ERNW_DogWhispererHandbook.pdf)
